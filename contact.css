@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: rgb(217, 199, 199);
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact {
+    padding: 50px 20px;
+    background: #1C0A00;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: rgb(217, 199, 199); 
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form {
+    display: grid;
+    grid-gap: 15px;
+}
+
+label {
+    font-size: 16px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #603601;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transform: .3;
+}
+
+button:hover {
+    background-color: #8f5207;
+}
+
+.map {
+    margin-top: 30px;
+}
+
+.error {
+    color: red;
+}
+
+.error-message {
+    color: red;
+}
+
